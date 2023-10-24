@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contate-nos!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="img/jpg" href="imagens/icone3.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+
+        body{
+            background-color: rgb(22, 22, 22);
+        }
+
+        nav {
+          background-color: black;
+        }
+
+        nav a{
+            color: white;
+        }
+
+        nav a:active{
+            background-color: antiquewhite;
+        }
+
+        label{
+            color: white;
+        }
+
+        textarea{
+            resize: none;
+        }
+
+        .form-group{
+            margin: 2%;
+        }
+
+        form [type="submit"], form [type="reset"] {
+            margin-left: 5%;
+            margin-top: 1%;
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-bottom: none;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+        
+        }
+
+        .seta{
+  float: right;
+}
+
+        footer{
+            text-align: center;
+            color: white;
+            margin-top: 1%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="nav nav-pills nav-fill">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="sobre.html">Sobre</a>
+        <a class="nav-item nav-link" href="galeria.html">Galeria</a>
+        <a class="nav-item nav-link active" href="contato.html">Contato</a>
+      </nav>
+<br><br>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nome completo</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Daniel Ayron Silva de Oliveira">
+      </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Telefone</label>
+            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="11 96785 4455">
+          </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Selecione sua cidade</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option></option>
+            <option>Hortolândia</option>
+            <option>Campinas</option>
+            <option>Jundiaí</option>
+            <option>Sumaré</option>
+            <option>Vinhedo</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mande sua dúvida</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="btn-acao">
+            <input type="submit" onclick="return validar()" value="Enviar">
+            <input type="reset" name="limpa" value="Limpar">
+        </div>
+    
+
+      </form>
+
+      <footer>Daniel Oliveira 2023 - &copyTodos os direitos reservados</footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
